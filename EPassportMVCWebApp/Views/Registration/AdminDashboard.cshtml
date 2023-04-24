@@ -1,0 +1,29 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+	ViewData["Title"] = "AdminDashboard";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>@ViewData["Title"] - EPassportMVCWebApp</title>
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/EPassportMVCWebApp.styles.css" asp-append-version="true" />
+</head>
+<body>
+
+	<H4>Admin DashBoard</H4>
+	<ul class="navbar-nav flex-grow-1">
+		
+		<li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-controller="Registration" asp-action="GetRegistrations">RegistrationList</a></li>
+		<li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-controller="OfficeDetails" asp-action="GetOfficeDetails">OfficeList</a></li>
+		<li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-controller="ApplicationForm" asp-action="GetApplicationFormDetails">ApplicationList</a></li>
+		<li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-controller="AppointmentSchedule" asp-action="GetAppointmentScheduleDetails">AppointmentList</a></li>
+		<li class="nav-item"><a class="nav-link text-dark" asp-area="" asp-controller="UserAppointmentSchedule" asp-action="GetUserAppointmentScheduleDetails">AppointmentScheduleDetails</a></li>
+	</ul>
+</body>
+</html>

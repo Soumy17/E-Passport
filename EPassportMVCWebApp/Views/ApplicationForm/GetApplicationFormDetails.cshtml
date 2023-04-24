@@ -1,0 +1,168 @@
+﻿@model IEnumerable<EPassportMVCWebApp.Models.ApplicationForm>
+
+@{
+    ViewData["Title"] = "GetApplicationFormDetails";
+}
+
+<h1>GetApplicationFormDetails</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.applicationId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.firstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.lastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dOB)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.placeOfBirth)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.maritalStatus)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.pan)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.employmentType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.applicantGender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.educationalQualification)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.fatherName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.motherName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.houseNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.streetNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.city)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.state)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.district)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.pincode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.telePhoneNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.applicantEMailId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.referanceName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.refTelephoneNumber)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.applicationId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.firstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.lastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dOB)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.placeOfBirth)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.maritalStatus)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.pan)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.employmentType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.applicantGender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.educationalQualification)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fatherName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.motherName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.houseNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.streetNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.city)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.state)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.district)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.pincode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.telePhoneNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.applicantEMailId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.referanceName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.refTelephoneNumber)
+            </td>
+            <td>
+
+                    @Html.ActionLink("Edit", "EditApplicationFormDetails", new { grdId=item.applicationId }) |
+                    @Html.ActionLink("Details", "GetApplicationFormById", new { userid=item.applicationId }) |
+                    @Html.ActionLink("Delete", "DeleteApplicationFormDetails", new { userid=item.applicationId })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

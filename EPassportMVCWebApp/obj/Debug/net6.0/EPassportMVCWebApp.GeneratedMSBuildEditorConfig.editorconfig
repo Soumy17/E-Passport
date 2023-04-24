@@ -1,0 +1,145 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EPassportMVCWebApp
+build_property.RootNamespace = EPassportMVCWebApp
+build_property.ProjectDir = D:\CapstoneProjectdotNET\EPassportnew\EPassport\EPassportMVCWebApp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\CapstoneProjectdotNET\EPassportnew\EPassport\EPassportMVCWebApp
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/ApplicationForm/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwbGljYXRpb25Gb3JtXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/ApplicationForm/EditApplicationFormDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwbGljYXRpb25Gb3JtXEVkaXRBcHBsaWNhdGlvbkZvcm1EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/ApplicationForm/FormFilledSuccessfully.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwbGljYXRpb25Gb3JtXEZvcm1GaWxsZWRTdWNjZXNzZnVsbHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/ApplicationForm/GetApplicationFormById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwbGljYXRpb25Gb3JtXEdldEFwcGxpY2F0aW9uRm9ybUJ5SWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/ApplicationForm/GetApplicationFormDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwbGljYXRpb25Gb3JtXEdldEFwcGxpY2F0aW9uRm9ybURldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/AppointmentSchedule/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRTY2hlZHVsZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/AppointmentSchedule/EditAppointmentScheduleDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRTY2hlZHVsZVxFZGl0QXBwb2ludG1lbnRTY2hlZHVsZURldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/AppointmentSchedule/GetAppointmentScheduleDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRTY2hlZHVsZVxHZXRBcHBvaW50bWVudFNjaGVkdWxlRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/AppointmentSchedule/GetAppointmentScheduleDetailsById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwb2ludG1lbnRTY2hlZHVsZVxHZXRBcHBvaW50bWVudFNjaGVkdWxlRGV0YWlsc0J5SWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/OfficeDetails/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmaWNlRGV0YWlsc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/OfficeDetails/EditOfficeDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmaWNlRGV0YWlsc1xFZGl0T2ZmaWNlRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/OfficeDetails/GetOfficeDetailById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmaWNlRGV0YWlsc1xHZXRPZmZpY2VEZXRhaWxCeUlkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/OfficeDetails/GetOfficeDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2ZmaWNlRGV0YWlsc1xHZXRPZmZpY2VEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/Registration/AdminDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXEFkbWluRGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/Registration/ApplicationSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXEFwcGxpY2F0aW9uU3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/Registration/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/Registration/EditUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXEVkaXRVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/Registration/GetRegistrations.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXEdldFJlZ2lzdHJhdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/Registration/GetUserDetailById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXEdldFVzZXJEZXRhaWxCeUlkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/Registration/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/Registration/UserDashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0cmF0aW9uXFVzZXJEYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/UserAppointmentSchedule/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckFwcG9pbnRtZW50U2NoZWR1bGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/UserAppointmentSchedule/EditUserAppointmentScheduleDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckFwcG9pbnRtZW50U2NoZWR1bGVcRWRpdFVzZXJBcHBvaW50bWVudFNjaGVkdWxlRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/UserAppointmentSchedule/GetUserAppointmentScheduleDetailById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckFwcG9pbnRtZW50U2NoZWR1bGVcR2V0VXNlckFwcG9pbnRtZW50U2NoZWR1bGVEZXRhaWxCeUlkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/UserAppointmentSchedule/GetUserAppointmentScheduleDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckFwcG9pbnRtZW50U2NoZWR1bGVcR2V0VXNlckFwcG9pbnRtZW50U2NoZWR1bGVEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CapstoneProjectdotNET/EPassportnew/EPassport/EPassportMVCWebApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-sn0v8ynb51

@@ -1,0 +1,48 @@
+﻿@model EPassportMVCWebApp.Models.AppointmentSchedule
+
+@{
+    ViewData["Title"] = "GetAppointmentScheduleDetailsById";
+}
+
+<h1>GetAppointmentScheduleDetailsById</h1>
+
+<div>
+    <h4>AppointmentSchedule</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.applicationId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.applicationId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.date)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.date)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.avaiableDays)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.avaiableDays)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.timeSlots)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.timeSlots)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.monthName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.monthName)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "EditAppointmentScheduleDetails", new { grdId=Model.applicationId }) |
+    <a asp-action="GetAppointmentScheduleDetails">Back to List</a>
+</div>

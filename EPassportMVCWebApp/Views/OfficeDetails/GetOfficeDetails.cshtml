@@ -1,0 +1,53 @@
+﻿@model IEnumerable<EPassportMVCWebApp.Models.OfficeDetails>
+
+@{
+    ViewData["Title"] = "GetOfficeDetails";
+}
+
+<h1>GetOfficeDetails</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.officeid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.officeName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Address)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.phonenumber)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.officeid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.officeName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Address)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.phonenumber)
+            </td>
+            <td>
+                    @Html.ActionLink("Edit", "EditOfficeDetails", new { grdId=item.officeid }) |
+                    @Html.ActionLink("Details", "GetOfficeDetailById", new { userid=item.officeid }) |
+                    @Html.ActionLink("Delete", "DeleteOfficeDetails", new { userid=item.officeid })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
